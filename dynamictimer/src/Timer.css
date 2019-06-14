@@ -1,0 +1,49 @@
+.phone
+{
+  position: relative; 
+}
+.phonecontainer
+{
+  position: relative;
+}
+.staticTimer
+{
+  /*border: 1px solid red; */
+  display: flex; 
+  font-family: sans-serif; 
+  font-size: 2.5rem;  
+  justify-content: center; 
+  position: relative; 
+  top: 46vh;
+  height: 8vh; 
+  left: 400%; 
+}
+.timeContainer
+{
+  display: flex; 
+  flex-direction: column; 
+}
+.description
+{
+  font-size: 0.75rem;
+  color: gray; 
+  margin-left: 10%;  
+}
+.startbutton
+{
+  position: absolute;
+  left: 410%; 
+  top: 430px
+}
+.resetbutton
+{
+  position: absolute;
+  left: 455%; 
+  top: 430px; 
+}
+.phone
+{
+  position: absolute;
+  z-index: -1;
+  left: 1%; 
+}
